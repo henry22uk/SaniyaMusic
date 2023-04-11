@@ -16,7 +16,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1356469075").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6163095697").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -59,7 +59,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
 STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("BQC3JXJFHy2EukZ-_q7TIyuT1lRTdexI9W0FwPieRpISdVDNvVWds_pPWI_Ux_vbl2-r40Yf0nqn12fM66zCaVyHHx_sp_yH9XQsECYdM_FL_jG7XDQWUMsd2FqVvr5pIGRx4srfUzKlU5NKIg5qN07dHezk55flPJNatDYd--RxmhQJBsVhZqH9JoG3BoaiD6knPOBll_UA4z5l2qUr4Jdqc0RVFyU1yTJDhjpo1vczY9BL3RztAcUJda_OJXaddLLO4j-xdKUwcTgz5kpixpN4Oe3M5zZG4ZaT-TgJ5EJY1qzv8qo_EiwTJGVYNnK0LyIji19B4H7uPSDwkjHcT9_lAAAAAXP2yi0A", None)
+STRING2 = getenv("", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
